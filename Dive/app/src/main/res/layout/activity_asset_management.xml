@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<TableLayout
+    android:id="@+id/table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+
+        android:background="@color/green">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Asset Name"
+            android:textColor="@color/white" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/nameAssetListFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Asset Name"
+            android:textColor="#000" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Product"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Component"
+            android:textColor="#000" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/productAssetListFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Product"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/componentAssetListFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Component"
+            android:textColor="#000" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Room"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/roomAssetListFull"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Room"
+            android:textColor="#000" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#98FB98"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Floor"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/floorAssetListFull"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Floor"
+            android:textColor="#000" />
+
+    </TableRow>
+
+    <TableRow
+    android:id="@+id/row7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#98FB98"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="State"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/stateAssetListFull"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="State"
+        android:textColor="#000" />
+
+</TableRow>
+
+    <TableRow
+    android:id="@+id/row8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#98FB98"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Owner"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/ownerAssetListFull"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Owner"
+        android:textColor="#000" />
+
+</TableRow>
+
+    <TableRow
+    android:id="@+id/row9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#98FB98"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Barcode"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/barcodeAssetListFull"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Barcode"
+        android:textColor="#000" />
+
+</TableRow>
+
+    <TableRow
+    android:id="@+id/row10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#98FB98"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Serial no."
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/serialAssetListFull"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Serial no."
+        android:textColor="#000" />
+
+</TableRow>
+
+    <TableRow
+    android:id="@+id/row11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#98FB98"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Site"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/siteAssetListFull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Site"
+        android:textColor="#000" />
+
+</TableRow>
+
+    <TableRow
+    android:id="@+id/row12"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#98FB98"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Location"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/locationAssetListFull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Location"
+        android:textColor="#000" />
+
+</TableRow>
+
+
+</TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Username"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:id="@+id/auditAssetUsernameTextView"
+        android:textSize="25dp"
+        android:padding="10dp"
+
+        android:background="@drawable/border"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="Email Id"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Id"
+        android:id="@+id/auditAssetEmailTextView"
+        android:textSize="25dp"
+        android:padding="10dp"
+
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room no"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/auditAssetEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="10dp"
+
+        android:background="@drawable/border"/>
+
+    <Button
+        android:id="@+id/auditAssetButton"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="Enter"/>
+
+
+</LinearLayout>
